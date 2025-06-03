@@ -1,10 +1,12 @@
 import './App.css';
-import {Upload} from "./components/Upload";
+import Inventory from "./components/Inventory";
 
 function App() {
+
     return (
         <div className="App">
-            <Upload />
+            <h1>Gilded Rose - Inventory</h1>
+            <Inventory />
         </div>
     );
 }
